@@ -1,0 +1,5 @@
+Poem_Title%Verse_ID%Material_Mentioned%Material_Property
+The Raven%7%Oak%Durability%Toughness
+Ozymandias%3%Stone%Longevity%Weight
+The Charge of the Light Brigade%22%Steel%__
+The Waste Land%15%Glass%Transparency, Fragility
