@@ -38,15 +38,18 @@ Here is a screenshot of the graphical interface in action:
 
 ---
 
-## ⚙️ Installation
+### ⚙️ Installation
 
 To run this project, you need to have Python installed. It is highly recommended to use a virtual environment.
 
 1.  **Clone the repository:**
+    You can clone the repository using the following command:
+    
     ```bash
-    git clone [https://github.com/ahmadreza-hajtalebi/ai-text-to-excel-tool.git](https://github.com/ahmadreza-hajtalebi/ai-text-to-excel-tool.git)
-    cd your-repo-name
+    git clone https://github.com/ahmadreza-hajtalebi/ai-text-to-excel-tool.git
     ```
+    
+    Alternatively, you can download the project files directly from the repository's main page.
 
 2.  **Install the required libraries:**
     The project uses a `requirements.txt` file to list all dependencies. Install them with a single command:
