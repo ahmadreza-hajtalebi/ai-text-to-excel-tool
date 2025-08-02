@@ -62,9 +62,9 @@ To run this project, you need to have Python installed. It is highly recommended
 ## 🚀 How to Use
 
 1.  **Prepare your input file:**
-    * Create a text file (e.g. `input_data.txt`) in the `data/` folder.
+    * Create a text file (e.g., `input_data.txt`) in the `data/` folder.
     * The first line must be the column headers, separated by a `%` delimiter.
-    * Subsequent lines should contain your data, also separated by `%`.
+    * Subsequent lines should contain your data, also separated by a `%`.
     * **Example format:**
         ```
         Poem_Title%Verse_ID%Material_Mentioned%Material_Property
@@ -72,14 +72,19 @@ To run this project, you need to have Python installed. It is highly recommended
         The Charge of the Light Brigade%22%Steel%__
         ```
 
-2.  **Run the GUI:**
+2.  **Get structured data from AI:**
+    * To get data from an AI that is compatible with this script, use the prompt template provided in the `prompts/` folder.
+    * The template helps you define the research subject, columns, and required output format.
+    * **You can find the template file here:** [ai_prompt_template.txt](prompts/ai_prompt_template.txt)
+
+3.  **Run the GUI:**
     * Navigate to the `gui/` directory.
     * Execute the main application script:
         ```bash
         python main_app.py
         ```
 
-3.  **Process your data:**
+4.  **Process your data:**
     * Use the "Browse" buttons to select your input and output file paths.
     * Enter the exact number of columns (e.g., 4).
     * (Optional) Check the box to ignore extra delimiters.
@@ -89,19 +94,22 @@ To run this project, you need to have Python installed. It is highly recommended
 
 ## 📂 Project Structure
 
-ai-text-to-excel-tool/  
-├── core/  
-│   └── data_processor.py       # Core logic for data parsing and Excel output  
-├── gui/  
-│   ├── main_app.py             # Main GUI application script  
-│   └── translations.py         # Dictionary for multilingual support  
-├── data/  
-│   ├── input_data.txt          # Example input file  
-│   └── e.g. example image.png  # Screenshot of the GUI  
-├── .gitignore  
-├── requirements.txt            # Project dependencies  
-└── README.md                   # Project documentation  
-
+```
+ai-text-to-excel-tool/
+├── core/
+│   └── data_processor.py        # Core logic for data parsing and Excel output
+├── gui/
+│   ├── main_app.py              # Main GUI application script
+│   └── translations.py          # Dictionary for multilingual support
+├── data/
+│   ├── input_data.txt           # Example input file
+│   └── e.g. example image.png   # Screenshot of the GUI
+├── prompts/                     # Directory for AI prompt templates
+│   └── ai_prompt_template.txt   # Template for getting structured AI output
+├── .gitignore
+├── requirements.txt             # Project dependencies
+└── README.md                    # Project documentation
+```
 
 ---
 
