@@ -1,0 +1,30 @@
+I need your help with my research. Please provide the information in a specific format based on the following instructions, so I can convert it into an Excel file using my Python script.
+
+**[Describe your project and the general goal of your research]:**
+For example:
+"Analyze Persian poetry with a focus on identifying materials and their properties."
+
+**[Text or subject you want to analyze]:**
+For example:
+"Based on the story of Rostam and Sohrab from the Shahnameh, identify all the tools and materials mentioned."
+
+**[Instructions for structuring the output]:**
+* The output must be in raw text format.
+* Each row of data must be on a separate line.
+* Columns must be separated by the '%' delimiter.
+* The first line of the output must contain the table headers.
+
+**[Define your headers and column content]:**
+* The headers for the table are exactly as follows:
+**[Your list of headers, separated by %]**
+
+For example:
+"ID%Concept%Example%Description%Source"
+
+* The content of each column should be filled based on the following descriptions:
+    * **[First Header]**: [Describe what the content of this column should be]
+    * **[Second Header]**: [Describe what the content of this column should be]
+    * ...
+    * **[Last Header]**: [Describe what the content of this column should be]
+
+**After your analysis, please provide the output exactly in this structure.**
